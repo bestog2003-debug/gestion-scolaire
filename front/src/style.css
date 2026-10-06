@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Palette "tableau d'école" : vert ardoise, papier, ocre et rouge d'alerte */
+@theme {
+  --color-board: #1f4d3a;
+  --color-paper: #f6f4ee;
+  --color-ochre: #b7791f;
+  --color-alert: #b4381f;
+}
