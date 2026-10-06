@@ -1,0 +1,4 @@
+# Envoie toutes les requêtes /api/... vers index.php (hébergement Apache)
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
